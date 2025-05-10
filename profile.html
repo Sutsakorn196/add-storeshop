@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>โปรไฟล์ผู้ใช้</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <h2>โปรไฟล์</h2>
+  <div id="userInfo">
+    <p><strong>อีเมล:</strong> <span id="userEmail"></span></p>
+  </div>
+
+  <h3>เปลี่ยนรหัสผ่าน</h3>
+  <form id="changePasswordForm">
+    <input type="password" placeholder="รหัสผ่านเดิม" id="oldPassword" required>
+    <input type="password" placeholder="รหัสผ่านใหม่" id="newPassword1" required>
+    <input type="password" placeholder="ยืนยันรหัสใหม่" id="newPassword2" required>
+    <button type="submit">บันทึก</button>
+  </form>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>

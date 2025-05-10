@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>คูปองของฉัน</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <h2>คูปองของฉัน</h2>
+  <table id="couponTable">
+    <thead>
+      <tr>
+        <th>ภาพปก</th>
+        <th>ชื่อคูปอง</th>
+        <th>วันหมดอายุ</th>
+        <th>ดูโค้ด</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <!-- ป็อปอัปแสดงคูปอง -->
+  <div id="couponPopup" class="popup hidden">
+    <div class="popup-content">
+      <span id="closePopup">&times;</span>
+      <img id="popupImage" src="" alt="ภาพคูปอง">
+      <h3 id="popupName"></h3>
+      <p id="popupCondition"></p>
+      <p id="popupExpire"></p>
+      <div id="popupCodeArea"></div>
+      <button id="toggleCodeType">เปลี่ยนรูปแบบ</button>
+      <button id="useCouponBtn">ใช้คูปอง</button>
+    </div>
+  </div>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
